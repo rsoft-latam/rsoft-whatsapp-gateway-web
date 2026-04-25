@@ -34,8 +34,8 @@ export function InputBar({
           onClick={() => fileInputRef.current?.click()}
           disabled={disabled}
           className="flex h-10 w-10 items-center justify-center rounded-full text-slate-500 hover:bg-slate-200 disabled:opacity-40"
-          aria-label="Adjuntar imagen"
-          title="Adjuntar foto"
+          aria-label="Attach image"
+          title="Attach photo"
         >
           📎
         </button>
@@ -59,7 +59,7 @@ export function InputBar({
               send();
             }
           }}
-          placeholder={disabled ? "esperando..." : "Escribí un mensaje"}
+          placeholder={disabled ? "waiting..." : "Type a message"}
           disabled={disabled}
           className="flex-1 rounded-full border border-slate-300 bg-white px-4 py-2 text-sm text-slate-800 outline-none focus:border-whatsapp-teal disabled:opacity-60"
         />

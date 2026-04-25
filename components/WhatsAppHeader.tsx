@@ -14,12 +14,12 @@ export function WhatsAppHeader({ isTyping, txCount, phone, onReset }: Props) {
     <div className="flex-shrink-0 bg-whatsapp-header px-4 pb-3 pt-10 text-white">
       <div className="flex items-center gap-3">
         <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-whatsapp-accent text-lg font-bold">
-          Q
+          M
         </div>
         <div className="flex-1">
-          <div className="font-semibold leading-tight">Quipu</div>
+          <div className="font-semibold leading-tight">RSoft MIA</div>
           <div className="text-xs text-white/70 leading-tight">
-            {isTyping ? "escribiendo..." : "RSoft Bank · en línea"}
+            {isTyping ? "typing..." : "AI Banking Agent · online"}
           </div>
         </div>
         <a
@@ -32,7 +32,7 @@ export function WhatsAppHeader({ isTyping, txCount, phone, onReset }: Props) {
         </a>
       </div>
       <div className="mt-2 flex items-center justify-between text-[10px] text-white/60">
-        <span>Sesión: {phone}</span>
+        <span>Session: {phone}</span>
         <div className="flex items-center gap-3">
           <span>tx on-chain: {txCount}</span>
           <button

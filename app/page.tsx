@@ -41,7 +41,7 @@ export default function Home() {
       pushMessage({
         id: uid(),
         direction: "in",
-        body: "Ups, no pude procesar eso. Probá de nuevo en unos segundos.",
+        body: "Oops, I couldn't process that. Please try again in a few seconds.",
         timestamp: timestamp(),
       });
     },
@@ -162,10 +162,10 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center">
       <header className="w-full px-6 py-4 text-center">
         <h1 className="text-xl font-semibold tracking-tight">
-          Quipu — Agentic Banking on WhatsApp
+          RSoft MIA — AI Banking on WhatsApp
         </h1>
         <p className="mt-1 text-xs text-white/60">
-          Demo en vivo · Arc L1 · Circle USDC · Settlement sub-segundo
+          Live demo · Arc L1 · Circle USDC · Sub-second settlement
         </p>
       </header>
 
@@ -187,7 +187,7 @@ export default function Home() {
 
       <footer className="max-w-md px-6 pb-8 text-center text-[11px] text-white/50">
         Sessions are ephemeral — each browser gets a random phone number.
-        Every message you send hits the real Quipu agent on Arc testnet.
+        Every message you send hits the real RSoft MIA agent on Arc testnet.
         Hit <b>reset</b> in the header to start over.
       </footer>
     </main>
