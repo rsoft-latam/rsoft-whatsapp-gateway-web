@@ -67,8 +67,8 @@ export function VoiceRecorder({ onCapture, disabled }: Props) {
           ? "bg-red-500 scale-110"
           : "bg-whatsapp-teal hover:bg-whatsapp-header"
       } disabled:opacity-40`}
-      aria-label="Mantener para grabar audio"
-      title="Mantener presionado para grabar"
+      aria-label="Hold to record audio"
+      title="Hold to record"
     >
       {isRecording ? "●" : "🎙"}
     </button>
