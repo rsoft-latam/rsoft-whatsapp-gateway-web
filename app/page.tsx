@@ -176,7 +176,7 @@ export default function Home() {
           phone={phone}
           onReset={onReset}
         />
-        <MessageList messages={messages} isTyping={isTyping} />
+        <MessageList messages={messages} isTyping={isTyping} onQuickReply={onSendText} />
         <InputBar
           onSendText={onSendText}
           onSendVoice={onSendVoice}
